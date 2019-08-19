@@ -2,11 +2,12 @@ const menuList = [{
     title: '首页', // 菜单标题名称
     key: '/home', // 对应的path
     icon: 'home', // 图标名称
+    isPublic: true // 是公开的 不需要检查
   },
   {
     title: '商品',
     key: '/products',
-    icon: 'appstore',
+    icon: 'appstore', 
     children: [ // 子菜单列表
       {
         title: '品类管理',
